@@ -16,5 +16,7 @@ public:
 	void Withdraw(int numberOfPennies);
 	int getBalance();
 	int getAccountNumber();
+    Customer retrieveOwner(){ return _accountOwner; };
+    void logMessage(string _msg){ _log.push_back(_msg); };
 };
 

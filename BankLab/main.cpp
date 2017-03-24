@@ -79,7 +79,7 @@ void TransactMenu()
 
 	int transactionType;
 	cin >> transactionType;
-
+    
 	//get the amount
 	system("cls");
 	cout << "How Many Pennies? ";
