@@ -1,6 +1,6 @@
 #pragma once
 #include "Customer.h"
-
+#include <vector>
 class Account
 {
 private:
@@ -17,6 +17,6 @@ public:
 	int getBalance();
 	int getAccountNumber();
     Customer retrieveOwner(){ return _accountOwner; };
-    void logMessage(string _msg){ _log.push_back(_msg); };
+    void logMessage(std::string _msg){ _log.push_back(_msg); };
 };
 
